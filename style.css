@@ -40,7 +40,7 @@ body {
 /*Index*/
 
 .bandeau {
-    background-image: url(/img/imagefond.jpg);
+    background-image: url(imagefond.jpg);
     background-position: center;
     background-size: cover;
     padding: 300px;
