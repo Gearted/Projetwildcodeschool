@@ -1,0 +1,155 @@
+
+body {
+    background-color: lightgray;
+    width: auto;
+}
+
+
+/*Navbar*/
+
+.header {
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 0px gray;
+}
+
+.logo {
+    height: 80px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar li {
+    margin: 15px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Index*/
+
+.bandeau {
+    background-image: url(/img/imagefond.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    color: #ffffff;
+    text-align: center;
+    opacity: 90%;
+    box-shadow: 3px 3px 0px gray;
+}
+
+.para {
+    margin: 20px;
+    padding-top: 30px;
+}
+
+/*Royal-family*/
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+
+.img1 {
+    border-radius: 20px;
+    height: 500px;
+    box-shadow: 3px 3px 0px gray;
+}
+
+.img2 {
+    border-radius: 20px;
+    height: 500px;
+    box-shadow: 3px 3px 0px gray;
+}
+
+.img3 {
+    border-radius: 20px;
+    height: 500px;
+    box-shadow: 3px 3px 0px gray;
+}
+
+.section1 p {
+    text-align: center;
+    margin: 50px;
+
+}
+
+/*Assets*/
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+    height: 500px;
+}
+table {
+    border-radius: 20px;
+    width: 50%;
+    }
+    tr {
+    border: 1px solid gray;
+    border-radius: 20px;
+    
+    }
+    td {
+    border: 1px solid gray;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 3px 3px gray;
+    }
+.group {
+    background-color: whitesmoke;
+}
+
+/*contact*/
+
+.section3 {
+    margin: 150px;
+}
+.section3 form {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.section3 h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+input {
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 700px;
+    box-shadow: 3px 3px 0px gray;
+}
+
+.input1 {
+    height: 150px;
+    box-shadow: 3px 3px 0px gray;
+}
+
+.btn {
+    border: 1px solid gray;
+    box-shadow: 3px 3px 0px gray;
+    border-radius: 20px;
+    width: 100px;
+    background-color: whitesmoke;
+    float: right;
+}
