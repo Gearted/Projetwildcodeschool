@@ -1,9 +1,5 @@
-const message =
-  "Merci pour votre message";
-
-document
-  .getElementById("btn")
-  .addEventListener("submit", function(event) {
-    event.preventDefault();
-    alert(message);
-  });
+function Message() {
+  var msg='Merci pour votre message';
+  console.log(msg)
+  alert(msg)
+}
